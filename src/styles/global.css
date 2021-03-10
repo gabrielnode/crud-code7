@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: Arial, Helvetica, sans-serif;
+    background-color: #F0F0F5;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 65vw;
+    margin: 5% 0 0 20%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0 0 10%;
+}
+input{
+    margin: 10px 0 0  0; 
+    width: 35vw;
+    height: 6vh;
+    border-radius: 6px;
+    border: 1px solid #999;
+    background: #fff;
+    outline: none;
+    padding: 10px;
+}
+
+.text-field{
+    width: 35vw;
+    padding: 20px;
+}
